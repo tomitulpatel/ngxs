@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'NGXSProj';
+  hide: boolean = false
+  func() {
+if(this.hide ===false) {
+  this.hide = true;
+} else {
+  this.hide=false;
+}
+  }
 }
